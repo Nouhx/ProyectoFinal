@@ -1,0 +1,502 @@
+ Dfd (c)
+1
+1
+3
+0
+0
+6
+1
+8
+decision
+1
+0
+4
+1
+35
+'Bienvenido a la TRIVIA DEL DRAGÓN'
+9
+1
+39
+decision<=0 or decision>3 or decision=2
+4
+1
+74
+'¿Qué deseas hacer?
+
+1. Iniciar juego.
+2. Ver instrucciones.
+3. Salir'
+5
+1
+8
+decision
+7
+0
+1
+10
+decision=1
+7
+0
+1
+10
+decision=2
+7
+0
+1
+10
+decision=3
+4
+1
+35
+'Error, vuelve a ingresar el valor'
+13
+4
+1
+28
+'Goodbye, my little friend.'
+13
+13
+4
+1
+387
+'¡Bienvenido a la Trivia! Responde cada pregunta eligiendo una opción.
+
+1. Recuerda que para ingresar las respuestas debes de usar comillas simples. 
+2. Asegúrate de entender completamente la pregunta antes de mirar las opciones.
+3. Lee todas las opciones antes de decidir.
+4. Responde las preguntas escribiendo la letra de la respuesta que creas, por favor responde en minúsculas.'
+13
+13
+12
+1
+20
+PrepararCuestionario
+0
+13
+11
+1
+2
+1
+20
+PrepararCuestionario
+0
+0
+6
+3
+3
+num
+1
+0
+7
+puntaje
+1
+0
+9
+respuesta
+2
+''
+6
+1
+9
+continuar
+4
+'si'
+9
+1
+14
+continuar='si'
+4
+1
+113
+'1. ¿Cuál es el país más grande del mundo por superficie?
+
+a) Canadá.
+b) China.
+c) Estados Unidos.
+d) Rusia'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='d'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+95
+'2.¿En qué país se encuentra la Torre Eiffel?
+
+a) Alemania
+b) Francia
+c) Italia
+d) España'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='b'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+93
+'3.¿Cuál es el país más poblado del mundo?
+a) India
+b) China
+c) Estados Unidos
+d) Brasil'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='a'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+97
+'4.¿En qué país se encuentra la Gran Muralla?
+a) Japón
+b) China
+c) Corea del Sur
+d) Mongolia'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='b'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+98
+'5.¿Cuál es el país con más islas en el mundo?
+a) Indonesia
+b) Filipinas
+c) Suecia
+d) Noruega'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='c'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+107
+'6.¿En qué país se celebra el Carnaval de Río de Janeiro?
+a) Argentina
+b) México
+c) Brasil
+d) Portugal'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='c'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+100
+'7.¿Cuál es el país más pequeño del mundo?
+a) San Marino
+b) Liechtenstein
+c) Mónaco
+d) Vaticano'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='d'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+110
+'8.¿Qué país es conocido como la Tierra del Sol Naciente?
+a) China
+b) Japón
+c) Corea del Sur
+d) Tailandia'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='b'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+86
+'9.¿En qué país se encuentra el río Nilo?
+a) Egipto
+b) Sudán
+c) Etiopía
+d) Uganda'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='a'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+4
+1
+160
+'10.¿Cuál es el único país que tiene una bandera con solo un color sin ningún diseño, emblema o detalle?
+a) Libia
+b) Vietnam
+c) Bangladés
+d) Arabia Saudita'
+5
+1
+9
+respuesta
+7
+0
+1
+13
+respuesta='a'
+4
+1
+28
+'¡¡¡Respuesta incorrecta!!!'
+13
+6
+1
+7
+puntaje
+9
+puntaje+1
+4
+1
+51
+'¡¡¡Respuesta correcta!!!
+Su puntaje es: ',puntaje
+13
+6
+1
+5
+total
+16
+(puntaje/10)*100
+4
+1
+46
+'Su porcentaje de acierto fue del: ',total,'%'
+7
+0
+1
+9
+total=100
+7
+0
+1
+23
+total>=60 and total<100
+4
+1
+70
+'Vuelve cuando creas que eres digno de afrontar la prueba del DRAGÓN.'
+13
+4
+1
+46
+'Lo hiciste muy bien, mi querido SALTAMONTES.'
+13
+13
+4
+1
+39
+'Excelente, TÚ eres EL GUERRERO DRAGÓN'
+13
+4
+1
+49
+'Deseas volver a presentar la TRIVIA DEL DRAGÓN?'
+5
+1
+9
+continuar
+11
+3
+2
+1
+13
+Instrucciones
+0
+0
+3
